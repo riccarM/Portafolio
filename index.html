@@ -4,7 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Estructura basica de SPA con etiqueta section que cargara dinamicamente la vista deseada -->
+    <div class="main flex">
+      <nav class="flex">
+        <h3 class="presentacion b">Presentacion</h3>
+        <h3 class="habilidades b">Habilidades</h3>
+        <h3 class="proyectos b">Proyectos</h3>
+        <h3 class="contacto b">Contacto</h3>
+      </nav>
+      <section class="content flex">
+        <!-- etiqueta span que simula la carga de informacion-->
+        <span class="loader"
+          ><img
+            src="assets/gears-spinner.svg"
+            alt="gears-spinner"
+            width="50px"
+            height="50px"
+        /></span>
+      </section>
+    </div>
+  </body>
   <script type="module" src="js/main.js"></script>
 </html>
