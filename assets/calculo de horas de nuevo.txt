@@ -1,0 +1,9 @@
+html 5/5 faltan 5 horas
+curso javascript 166 videos
+voy en el video 120 de 166 media de videos 45min total  de 35 horas
+curso react.js 111 videos con una media de 30 min total de 66 horas
+base de datos 22 horas en total
+curso backend node.js 20 videos total de 40 horas
+git & github 4 horas
+
+total de 172 horas
