@@ -20,7 +20,7 @@ export default function Habilidades() {
   <li><img src="./assets/react-1-logo-svgrepo-com.svg"><a href="https://es.react.dev/" target="_blank" >React  <small>aprendiendo...</small></a></li>
   </ul>
   </div>
-
+  
   <div class="hab">
   <h2>Backend</h2>
   <ul>

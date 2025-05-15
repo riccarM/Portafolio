@@ -11,7 +11,7 @@ export default function Contacto() {
   $hab.classList.remove("hinit");
   $proy.classList.remove("prinit");
   $section.innerHTML = `
-  <div>
+  <section class="info">
   <h2>Informacion</h2>
   <ul>
   <li><img src="./assets/linkedin-rounded-svgrepo-com.svg"><a href="https://www.linkedin.com/in/jose-medoza"
@@ -20,9 +20,8 @@ export default function Contacto() {
   <img src="./assets/email-8-svgrepo-com.svg">
   <h4>Email-<i>ricardomendozapj@gmail.com</i></h4>
   </li>
-
   <li><img src="./assets/github-svgrepo-com.svg"><a href="https://github.com/riccarM" target="_blank">Github</a></li>
   </ul>
-  <div>
+  <section>
   `;
 }

@@ -14,7 +14,7 @@ export default function Proyectos() {
   <aside>
   <h3>Portafolio</h3>
   <br/>
-  <a><img  src="./assets/portafolio.png" alt="portafolio"></a>
+  <a href="https://riccarm.github.io/Portafolio/"><img  src="./assets/portafolio.png" alt="portafolio"></a>
   <p> Este  proyecto consiste en una <b>SPA</b> (<i>single-page-application</i>), un sitio <b>estatico</b> completamente vanilla <b> HTML,CSS y javascript(JS)</b> con <b>hosting</b>
   en github-gh-pages.
   </p>
