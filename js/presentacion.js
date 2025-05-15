@@ -20,7 +20,7 @@ export default function Presentacion() {
   <h2>Sobre mi</h2>
   <p>Soy <b>Jose mendoza<b> </b>Ingeniero Electronico</b> y <b>Desarrollador web full-stack</b>. Me apasiona crear soluciones digitales simples y funcionales. Siempre aprendiendo.</p>
    <button class="btn">
-   <a  href="./assets/calculo de horas de nuevo.txt" download="calculo de horasde nuevo.txt">descargar Cv</a>
+   <a  href="./assets/curriculum-vitae-Jose-Mendoza.docx" download="calculo de horasde nuevo.txt">descargar Cv</a>
    </button>
   </article>
  
