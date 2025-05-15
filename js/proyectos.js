@@ -11,22 +11,25 @@ export default function Proyectos() {
   $hab.classList.remove("hinit");
   $proy.classList.add("prinit");
   $section.innerHTML = `
-  <article >
-  <h2>this proyect</h2>
- <a> <img src="./assets/build-svgrepo-com.svg" alt=""></a>
-  <p>Este proyecto en si es mi hoja de vida esta hecho con:</p>
-  </article>
-  
-  <article>
-  <h2>Api</h2>
-  <a><img src="./assets/build-svgrepo-com.svg" alt=""></a>
-  <p>esta es una api rest esta  con:</p>
-  </article>
-
-  <article>
-  <h2>react history</h2>
-  <a><img src="./assets/build-svgrepo-com.svg" alt=""></a>
-  <p> este proyecto es una base con:</p>
-  </article>
+  <aside>
+  <h3>Portafolio</h3>
+  <br/>
+  <a><img  src="./assets/portafolio.png" alt="portafolio"></a>
+  <p> Este  proyecto consiste en una <b>SPA</b> (<i>single-page-application</i>), un sitio <b>estatico</b> completamente vanilla <b> HTML,CSS y javascript(JS)</b> con <b>hosting</b>
+  en github-gh-pages.
+  </p>
+  </aside>
+  <aside>
+  <h3>Default</h3>
+  <br/>
+  <a><img src="./assets/circles.svg" alt="circles" width="50px" height="50px"></a>
+  <p>En construccion</p>
+  </aside>
+  <aside>
+  <h3>Default</h3>
+  <br/>
+  <a><img src="./assets/circles.svg" alt="circles" width="50px" height="50px"></a>
+  <p>En construccion</p>
+  </aside>
   `;
 }

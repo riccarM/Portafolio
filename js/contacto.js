@@ -14,7 +14,8 @@ export default function Contacto() {
   <div>
   <h2>Informacion</h2>
   <ul>
-  <li><img src="./assets/linkedin-rounded-svgrepo-com.svg"><a href="www.linkedin.com/in/ricardo-medoza-64862a321" target="_blank">LinkedIn</a></li>
+  <li><img src="./assets/linkedin-rounded-svgrepo-com.svg"><a href="https://www.linkedin.com/in/jose-medoza"
+ target="_blank">LinkedIn</a></li>
   <li>
   <img src="./assets/email-8-svgrepo-com.svg">
   <h4>Email-<i>ricardomendozapj@gmail.com</i></h4>

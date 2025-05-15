@@ -1,24 +1,24 @@
+//importacion de funciones
 import Contacto from "./contacto.js";
 import Habilidades from "./habilidades.js";
 import Presentacion from "./presentacion.js";
 import Proyectos from "./proyectos.js";
+//variables y manipulacion del Dom
 const d = document,
-  $section = d.querySelector(".content");
-const loader = d.createElement("div");
-loader.classList.add("loader");
+  $section = d.querySelector(".content"),
+  $loader = d.querySelector(".loader");
+// evento principal
 
 d.addEventListener("DOMContentLoaded", (e) => {
-  $section.appendChild(loader);
   setTimeout(() => {
+    $loader.style.display = "none";
     Presentacion();
   }, 1500);
-  // $section.removeChild(loader);
 });
+// evento asignado para cla visualcion del contenido
 d.addEventListener("click", (e) => {
   if (e.target.matches(".presentacion")) {
-    setTimeout(() => {
-      Presentacion();
-    }, 1500);
+    Presentacion();
   }
   if (e.target.matches(".habilidades")) {
     Habilidades();

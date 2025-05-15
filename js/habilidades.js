@@ -17,7 +17,7 @@ export default function Habilidades() {
   <li> <img src="./assets/html-svgrepo-com.svg"><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" >HTML</a></li>
   <li> <img src="./assets/css3-svgrepo-com.svg"><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" >CSS</a></li>
   <li> <img src="./assets/javascript-svgrepo-com.svg"><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" >JavaScript</a></li>
-  <li><img src="./assets/react-1-logo-svgrepo-com.svg"><a href="https://es.react.dev/" target="_blank" >React</a></li>
+  <li><img src="./assets/react-1-logo-svgrepo-com.svg"><a href="https://es.react.dev/" target="_blank" >React  <small>aprendiendo...</small></a></li>
   </ul>
   </div>
 

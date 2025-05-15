@@ -11,14 +11,14 @@ export default function Presentacion() {
   $proy.classList.remove("prinit");
   $pres.classList.add("pinit");
   $section.innerHTML = `
-  <div>
-   <img src="./assets/imagen-vectorial.webp" alt="Loro">
-   <h2><i>Desarrollador Web full-Stack</i></h2>
+  <div class="flex">
+   <img  class="me" src="./assets/me.jpg" alt="Loro">
+   <h3><i>Desarrollador Web full-Stack</i></h3>
    <h3><i>Ingeniero electronico</i></h3>
   </div>
   <article>
   <h2>Sobre mi</h2>
-  <p>soy Jose mendoza ingeniero electronico dedicado a aprender a programar</p>
+  <p>Soy <b>Jose mendoza<b> </b>Ingeniero Electronico</b> y <b>Desarrollador web full-stack</b>. Me apasiona crear soluciones digitales simples y funcionales. Siempre aprendiendo.</p>
    <button class="btn">
    <a  href="./assets/calculo de horas de nuevo.txt" download="calculo de horasde nuevo.txt">descargar Cv</a>
    </button>
