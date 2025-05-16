@@ -12,7 +12,7 @@ export default function Habilidades() {
   $hab.classList.add("hinit");
   $section.innerHTML = `
   <div class="hab">
-  <h2>frontend</h2>
+  <h2>Frontend</h2>
   <ul>
   <li> <img src="./assets/html-svgrepo-com.svg"><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" >HTML</a></li>
   <li> <img src="./assets/css3-svgrepo-com.svg"><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" >CSS</a></li>
@@ -31,7 +31,7 @@ export default function Habilidades() {
   </div>
 
   <div class="hab">
-  <h2>habilidades Blandas</h2>
+  <h2>Habilidades Blandas</h2>
   <ul>
   <li><b>Responsable</b></li>
   <li><b>autodidacta</b></li>
@@ -41,7 +41,7 @@ export default function Habilidades() {
   </div>
 
   <div class="hab">
-  <h2>herramientas</h2>
+  <h2>Herramientas</h2>
   <ul>
   <li><img src="./assets/git-svgrepo-com.svg"><a href="https://git-scm.com/" target="_blank">Git</a></li>
   <li><img src="./assets/github-svgrepo-com.svg"><a href="https://github.com/" target="_blank">Github</a></li>

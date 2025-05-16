@@ -1,0 +1,75 @@
+@media screen and (max-width: 575px) {
+  nav {
+    height: 20%;
+  }
+  nav * {
+    width: 40%;
+  }
+  .content {
+    height: 80%;
+    align-content: center;
+  }
+  .content div,
+  .content article {
+    width: 90%;
+    align-content: center;
+    height: 45%;
+  }
+  .btn {
+    width: 50%;
+    height: 15%;
+  }
+  .content .hab {
+    width: 49%;
+    height: 45%;
+  }
+  .hab {
+    margin-bottom: 30px;
+  }
+  .hab h2 {
+    margin-top: 20px;
+  }
+  ul {
+    padding-left: 10px;
+  }
+  li {
+    width: 80%;
+    margin-top: 5px;
+    justify-content: flex-end;
+  }
+  li img {
+    margin-right: 5px;
+  }
+  li b {
+    width: 100%;
+    text-align: center;
+  }
+
+  .me {
+    width: 100px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  .content aside {
+    width: 80%;
+    height: 30%;
+    justify-content: center;
+  }
+  aside img {
+    width: 100px;
+    height: 100px;
+  }
+  aside p {
+    display: none;
+  }
+  .info {
+    width: 100%;
+    justify-content: center;
+  }
+  .info li {
+    justify-content: flex-start;
+  }
+  .info ul {
+    padding-left: 1rem;
+  }
+}
