@@ -5,7 +5,7 @@ export default function Contacto($section) {
     <ul>
       <li>
         <img src="./assets/linkedin-rounded-svgrepo-com.svg">
-         <a href="www.linkedin.com/in/ricardo-medoza-64862a321" target="_blank">LinkedIn</a>
+         <a href="https://www.linkedin.com/in/jose-medoza" target="_blank">LinkedIn</a>
       </li>
       <li>
         <img src="./assets/email-8-svgrepo-com.svg">
