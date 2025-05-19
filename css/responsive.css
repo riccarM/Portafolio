@@ -1,75 +1,80 @@
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 600px) {
   nav {
-    height: 20%;
-  }
-  nav * {
-    width: 40%;
-  }
-  .content {
-    height: 80%;
-    align-content: center;
-  }
-  .content div,
-  .content article {
     width: 90%;
-    align-content: center;
-    height: 45%;
+    height: 10%;
   }
-  .btn {
+  nav h3 {
     width: 50%;
-    height: 15%;
+    border-radius: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.197);
   }
-  .content .hab {
-    width: 49%;
-    height: 45%;
+  hr {
+    width: 90%;
   }
-  .hab {
-    margin-bottom: 30px;
+  .contenido {
+    width: 90%;
+    height: 80%;
   }
-  .hab h2 {
-    margin-top: 20px;
-  }
-  ul {
-    padding-left: 10px;
-  }
-  li {
-    width: 80%;
-    margin-top: 5px;
-    justify-content: flex-end;
-  }
-  li img {
-    margin-right: 5px;
-  }
-  li b {
+  .contenido .perfil {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
     width: 100%;
+    height: 40%;
+  }
+  .perfil img {
+    margin: auto;
+  }
+  .perfil h3 {
+    margin-top: 10px;
     text-align: center;
   }
-
-  .me {
-    width: 100px;
-    height: 120px;
-    margin-bottom: 10px;
+  .contenido .sobre-mi {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 50%;
   }
-  .content aside {
-    width: 80%;
+  .sobre-mi hr {
+    width: 88%;
+  }
+  .sobre-mi a,
+  p {
+    margin: 0;
+  }
+  .sobre-mi a {
+    padding: 0.2rem;
+    width: 40%;
+    height: 11%;
+  }
+  .habilidades {
+    width: 50%;
+    height: 35%;
+    margin-top: 1rem;
+  }
+  .habr {
+    display: block;
+    width: 100%;
+    background: var(--rgb-bg);
+  }
+  .contenido article {
+    margin-top: 1rem;
+    width: 100%;
     height: 30%;
-    justify-content: center;
+    margin-left: 0;
   }
-  aside img {
-    width: 100px;
-    height: 100px;
-  }
-  aside p {
+
+  .contenido article p {
     display: none;
   }
-  .info {
+  .contenido article img {
+    width: 80px;
+    height: 80px;
+    margin-top: 1rem;
+    margin-left: 120px;
+  }
+  .contacto {
     width: 100%;
-    justify-content: center;
-  }
-  .info li {
-    justify-content: flex-start;
-  }
-  .info ul {
-    padding-left: 1rem;
   }
 }

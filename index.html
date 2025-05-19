@@ -9,26 +9,20 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <!-- Estructura basica de SPA con etiqueta section que cargara dinamicamente la vista deseada -->
-    <div class="main flex">
-      <nav class="flex">
-        <h3 class="presentacion b">Presentacion</h3>
-        <h3 class="habilidades b">Habilidades</h3>
-        <h3 class="proyectos b">Proyectos</h3>
-        <h3 class="contacto b">Contacto</h3>
+    <main class="flexc">
+      <nav class="flexr">
+        <h3 class="pres">Presentacion</h3>
+        <h3 class="hab">Habilidades</h3>
+        <h3 class="proy">Proyectos</h3>
+        <h3 class="cont">Contacto</h3>
       </nav>
-      <br />
-      <section class="content flex">
-        <!-- etiqueta span que simula la carga de informacion-->
-        <span class="loader"
-          ><img
-            src="assets/gears-spinner.svg"
-            alt="gears-spinner"
-            width="50px"
-            height="50px"
-        /></span>
+      <hr />
+      <section class="contenido flexr">
+        <div class="loader">
+          <img src="assets/gears-spinner.svg" alt="spinner" />
+        </div>
       </section>
-    </div>
+    </main>
   </body>
   <script type="module" src="js/main.js"></script>
 </html>

@@ -1,28 +1,17 @@
-const d = document,
-  $section = d.querySelector(".content"),
-  $hab = d.querySelector(".habilidades"),
-  $proy = d.querySelector(".proyectos"),
-  $cont = d.querySelector(".contacto"),
-  $pres = d.querySelector(".presentacion");
-
-export default function Presentacion() {
-  $cont.classList.remove("cinit");
-  $hab.classList.remove("hinit");
-  $proy.classList.remove("prinit");
-  $pres.classList.add("pinit");
+export default function Presentacion($section) {
   $section.innerHTML = `
-  <div class="flex">
-   <img  class="me" src="./assets/me.jpg" alt="Loro">
-   <h3><i>Desarrollador Web full-Stack</i></h3>
-   <h3><i>Ingeniero electronico</i></h3>
+  <div class="perfil flexcc">
+    <img src="./assets/me.jpg" alt="Loro">
+    <h3>Desarrollador Web full-Stack</h3>
+    <h3>Ingeniero Electronico</h3>
   </div>
-  <article>
-  <h2>Sobre mi</h2>
-  <p>Soy <b>Jose mendoza<b> </b>Ingeniero Electronico</b> y <b>Desarrollador web full-stack</b>. Me apasiona crear soluciones digitales simples y funcionales. Siempre aprendiendo.</p>
-   <button class="btn">
-   <a href="./assets/curriculum-vitae-Jose-Mendoza.pdf" download="curriculum-vitae-Jose-Mendoza.pdf">descargar Cv</a>
-   </button>
-  </article>
- 
+
+  <div class="sobre-mi flexcc">
+    <h2>Sobre mi</h2>
+    <hr/>
+    <p>Soy <b>Jose Mendoza Plata<b> </b>Ingeniero Electronico</b> y <b>Desarrollador web Full-stack</b>. Me apasiona crear soluciones digitales simples y funcionales. Siempre aprendiendo.</p>
+    <a  href="./assets/curriculum-vitae-Jose-Mendoza.pdf" download="curriculum-vitae-Jose-Mendoza.pdf">descargar Cv</a>
+  </div>
+
   `;
 }
