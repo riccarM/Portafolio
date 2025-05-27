@@ -59,6 +59,8 @@
     background: var(--rgb-bg);
   }
   .contenido article {
+    display: flex;
+    flex-flow: column;
     margin-top: 1rem;
     width: 100%;
     height: 30%;
@@ -68,11 +70,15 @@
   .contenido article p {
     display: none;
   }
+  .contenido article a {
+    width: 60%;
+    height: 90%;
+    margin: auto;
+  }
   .contenido article img {
-    width: 80px;
-    height: 80px;
     margin-top: 1rem;
-    margin-left: 130px;
+    width: 100%;
+    height: 80%;
   }
   .contacto {
     width: 100%;
