@@ -1,7 +1,7 @@
 export default function Contacto($section) {
   $section.innerHTML = `
   <div class="contacto">
-    <h2>Informacion</h2>
+    <h2>Información</h2>
     <ul>
       <li>
         <img src="./assets/linkedin-rounded-svgrepo-com.svg">

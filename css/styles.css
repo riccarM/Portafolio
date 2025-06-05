@@ -95,7 +95,7 @@ hr {
 }
 .contenido {
   width: 60%;
-  height: 80%;
+  height: 90%;
   transition: all 0.5s linear;
 }
 .contenido .perfil {
@@ -104,7 +104,7 @@ hr {
 .perfil img {
   max-width: 80%;
   height: 45%;
-  margin-right: auto;
+  margin: 0 auto;
   border-radius: 1rem;
   box-shadow: 0px 0px 5px 0.5px rgb(148, 147, 147);
 }
@@ -115,7 +115,7 @@ hr {
 .perfil h3 {
   width: 100%;
   margin-top: 1rem;
-  text-align: left;
+  text-align: center;
 }
 b {
   color: rgb(12, 59, 65);
@@ -152,7 +152,7 @@ b {
   transform: scale(1.01, 1.01);
 }
 .cambio-color {
-  background-color: rgb(16, 73, 81);
+  background-color: rgb(232, 138, 24);
   color: white;
 }
 .cambio-color:hover {
@@ -165,47 +165,60 @@ b {
   height: 40px;
 }
 .habilidades {
-  width: 25%;
-  height: 50%;
+  width: 100%;
+  height: 15%;
   font-weight: 550;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
+
 .habilidades h3 {
-  height: 20%;
+  text-align: center;
+  height: 40%;
   color: rgb(51, 43, 34);
 }
 .habilidades img {
   width: 30px;
   height: 30px;
   border-radius: 0.5rem;
+  object-fit: contain;
 }
 .habilidades img:hover {
   transform: scale(1.1, 1.1);
 }
 .habilidades ul {
-  width: 100%;
-  padding: 0;
-}
-.habilidades li {
-  margin-top: 1rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.habilidades li {
+  margin-top: 0.7rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 25%;
   list-style: none;
+}
+.habback li {
+  width: 33%;
 }
 .habr {
   display: none;
 }
 .habilidades li a {
+  padding-top: 5px;
   text-decoration: none;
+  background-color: rgb(244, 249, 251);
   color: rgb(12, 59, 65);
   margin-left: 10px;
 }
 .habilidades li a:hover {
-  color: rgb(83, 60, 47);
+  color: orangered;
 }
 .contenido article {
   margin-left: 1rem;
@@ -257,7 +270,7 @@ b {
   margin-left: 1rem;
 }
 .contacto a:hover {
-  color: rgb(83, 60, 47);
+  color: orangered;
 }
 .contacto li h4 {
   width: 60%;

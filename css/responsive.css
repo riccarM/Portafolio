@@ -36,8 +36,8 @@
     width: 100%;
     height: 50%;
   }
-  .sobre-mi hr {
-    width: 88%;
+  .sobre-mi h2 {
+    margin: 0;
   }
   .sobre-mi a,
   p {
@@ -49,14 +49,19 @@
     height: 11%;
   }
   .habilidades {
-    width: 50%;
-    height: 35%;
-    margin-top: 1rem;
-  }
-  .habr {
-    display: block;
     width: 100%;
-    background: var(--rgb-bg);
+    height: 25%;
+    margin-top: 0.5rem;
+  }
+  .habilidades ul {
+    justify-content: flex-start;
+  }
+  .habilidades li {
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .habilidades h3 {
+    height: 20%;
   }
   .contenido article {
     display: flex;

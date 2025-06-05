@@ -1,19 +1,19 @@
 export default function Habilidades($section) {
   $section.innerHTML = `
   <div class="habilidades">
-    <h3>Frontend</h3>
+    <h3>Front-end</h3>
     <ul>
       <li>
         <img src="./assets/html-svgrepo-com.svg">
-        <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" >Html</a>
+        <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" >HTML</a>
       </li>
       <li>
         <img src="./assets/css3-svgrepo-com.svg">
-        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" >Css</a>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" >CSS</a>
       </li>
       <li>
         <img src="./assets/javascript-svgrepo-com.svg">
-        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" >Javascript</a>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" >JavaScript</a>
       </li>
       <li>
        <img src="./assets/react-1-logo-svgrepo-com.svg">
@@ -22,8 +22,8 @@ export default function Habilidades($section) {
     </ul>
   </div>
 
-  <div class="habilidades">
-    <h3>Backend</h3>
+  <div class="habilidades habback">
+    <h3>Back-end</h3>
     <ul>
       <li>
         <img src="./assets/nodejs-svgrepo-com.svg">
@@ -39,7 +39,6 @@ export default function Habilidades($section) {
       </li>
     </ul>
   </div>
-   <hr class="habr" />
   <div class="habilidades">
     <h3>Habilidades Blandas</h3>
     <ul>
@@ -67,7 +66,7 @@ export default function Habilidades($section) {
      </li>
      <li>
         <img src="./assets/github-svgrepo-com.svg">
-        <a href="https://github.com/" target="_blank">Github</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
      </li>
     </ul>
   </div>
